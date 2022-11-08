@@ -46,7 +46,6 @@ publishing {
 
 dependencies {
 	implementation(kotlin("reflect"))
-	implementation("khttp:khttp:1.0.0")
 	implementation("com.google.code.gson:gson:2.8.6")
 	implementation("org.awaitility:awaitility-kotlin:4.0.3")
 	implementation("com.github.psxpaul:gradle-execfork-plugin:0.2.0")
@@ -74,8 +73,8 @@ gradlePlugin {
 }
 
 pluginBundle {
-	website = "https://github.com/springdoc/springdoc-openapi-gradle-plugin"
-	vcsUrl = "https://github.com/springdoc/springdoc-openapi-gradle-plugin.git"
+	website = "https://github.com/Elephantseed/springdoc-openapi-gradle-plugin"
+	vcsUrl = "https://github.com/Elephantseed/springdoc-openapi-gradle-plugin.git"
 	tags = listOf("springdoc", "openapi", "swagger")
 }
 
